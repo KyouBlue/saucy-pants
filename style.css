@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(31, 37, 34);
+    color: white;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-indent: 4ch;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;   
+}
+
+.firstChoice a {
+    color: inherit;
+    background-color: inherit;
+    text-decoration: inherit;
+   
+}
+
+header {
+    background-color: inherit;
+    font-size: 25px; 
+    font-family:'Franklin Gothic Medium'
+    
+  }
+  
+  path {
+    fill: transparent;
+  }
+  
+  text {
+    fill: #ffffff;
+  }
+
+  body {
+    margin-top: 70px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.container {
+    width: 700px;
+    height: 570px;
+    margin: 100px auto;
+    background-color: rgb(40, 38, 39);
+    position: relative;
+}
+
+.container p {
+    margin: 3%;
+    padding: 1%;
+    font-size: 20px;
+}
