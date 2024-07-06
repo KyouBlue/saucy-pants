@@ -1,6 +1,8 @@
 body {
     background-color: rgb(31, 37, 34);
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
@@ -24,35 +26,33 @@ nav {
     color: inherit;
     background-color: inherit;
     text-decoration: inherit;
-   
 }
 
 header {
     background-color: inherit;
     font-size: 25px; 
-    font-family:'Franklin Gothic Medium'
-    
-  }
-  
-  path {
-    fill: transparent;
-  }
-  
-  text {
-    fill: #ffffff;
-  }
+    font-family:'Franklin Gothic Medium';
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
-  body {
-    margin-top: 70px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    margin-left: 100px;
+main {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+path {
+    fill: transparent;
+}
+
+text {
+    fill: #ffffff;
 }
 
 .container {
     width: 700px;
     height: 570px;
-    margin: 100px auto;
+    margin: 0 auto;
     background-color: rgb(40, 38, 39);
     position: relative;
 }
